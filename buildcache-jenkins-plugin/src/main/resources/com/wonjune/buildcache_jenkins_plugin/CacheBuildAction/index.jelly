@@ -1,0 +1,6 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define">
+    <st:include it="${it.build}" page="sidepanel.jelly"/>
+    <h1>${it.displayName}</h1>
+    <pre>${it.cachedResult}</pre>
+</j:jelly>
